@@ -1,0 +1,21 @@
+{
+  "presets": [
+    "flow",
+    "react",
+    ["env", {
+      "targets": {
+        "node": "8.9.3",
+        "browsers": "last 2 versions"
+      }
+    }],
+    "stage-0"
+  ],
+  "plugins": [
+    [
+      "transform-runtime", {
+        "polyfill": false,
+        "regenerator": true
+      }
+    ]
+  ]
+}

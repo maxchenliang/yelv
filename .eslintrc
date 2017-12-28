@@ -1,0 +1,35 @@
+{
+  "extends": [
+    "airbnb",
+    "plugin:flowtype/recommended"
+  ],
+  "parser": "babel-eslint",
+  "plugins": [
+    "flowtype"
+  ],
+  "rules": {
+    "semi": [2, "never"],
+    "quotes": [2, "single"],
+    "indent": [2, 2],
+    "max-len": [2, 120],
+    "no-param-reassign": 1,
+    "no-new": 1,
+    "no-console": 1,
+    "import/prefer-default-export": 1,
+    "jsx-a11y/no-noninteractive-element-interactions": 1,
+    "jsx-a11y/no-static-element-interactions": 1,
+    "import/no-extraneous-dependencies": 1,
+    "react/no-string-refs": 1,
+    "jsx-a11y/label-has-for": 1,
+    "react/forbid-prop-types": 1,
+    "linebreak-style": 1,
+    "global-require": 1,
+    "flowtype/no-types-missing-file-annotation": 1
+  },
+  "env": {
+    "node": true,
+    "browser": true
+  },
+  "globals": {
+  }
+}
