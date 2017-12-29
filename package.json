@@ -11,9 +11,7 @@
   "author": "maxchenliang",
   "license": "ISC",
   "dependencies": {
-    "hessian.js": "^2.6.0",
     "isomorphic-fetch": "^2.2.1",
-    "js-to-java": "^2.4.0",
     "koa": "^2.3.0",
     "koa-bodyparser": "^4.2.0",
     "koa-ejs": "^4.1.0",
@@ -33,6 +31,7 @@
     "redux-thunk": "^2.2.0"
   },
   "devDependencies": {
+    "@babel/register": "^7.0.0-beta.36",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.0.1",
     "babel-loader": "^7.1.2",

@@ -6,3 +6,4 @@ npm-debug.log
 /entry/index.html
 .cache-loader
 /logs
+tmp.md

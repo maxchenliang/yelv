@@ -1,4 +1,4 @@
-import fetch from '@didi/am-fetch'
+import 'isomorphic-fetch'
 
 const USER_LOADING = 'msg/user/loading'
 const USER_LOAD_SUCCESS = 'msg/user/load/success'

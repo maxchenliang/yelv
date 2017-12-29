@@ -6,8 +6,6 @@ const router = new Router({
 
 
 router.all('/', (ctx) => {
-  console.log(ctx.request.body)
-  console.log(ctx.request.rawBody)
   ctx.body = {
     code: 0,
     msg: 'OK',
